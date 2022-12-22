@@ -1,0 +1,8 @@
+// Colors variables
+$light-text-color: '#fffff';
+
+// Mixins
+@mixin section-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
