@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ProgressSpinner } from 'primereact/progressspinner';
 
-const LoadingPage = (): JSX.Element => {
+const Loading = (): JSX.Element => {
   return (
     <div
       className='flex align-items-center justify-content-center'
@@ -22,4 +22,4 @@ const LoadingPage = (): JSX.Element => {
   );
 };
 
-export default LoadingPage;
+export default Loading;

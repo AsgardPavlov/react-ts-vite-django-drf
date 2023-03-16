@@ -2,9 +2,9 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 
-import './PublicHeader.scss';
+import './Header.scss';
 
-const PublicHeader = (): JSX.Element => {
+const Header = (): JSX.Element => {
   const icon = {
     hidden: {
       pathLength: 0,
@@ -45,4 +45,4 @@ const PublicHeader = (): JSX.Element => {
   );
 };
 
-export default PublicHeader;
+export default Header;
